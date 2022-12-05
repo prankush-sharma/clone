@@ -1,0 +1,663 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Varela+Round&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Varela Round', sans-serif;
+}
+.upper-part{
+    background-image: url('./assets/asset\ 30.png');
+    background-size: 300px;
+    background-color: #16b1c2;
+    padding: 15px;
+    color: white;
+}
+.upper-part p{
+    margin-left: 38%;
+}
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+  
+}
+li{
+    list-style: none;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+.company-logo img{
+    width: 160px;
+    height: 30px;
+}
+.main{
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.nav-link{
+    flex-basis: 700px;
+    
+}
+.nav-link ul{
+   
+    gap: 40px;
+    justify-content: end;
+    
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: #045079;
+}
+.hover-link{
+    color:#0f9ae6 ;
+    transition: 0.2s ease-in;
+}
+.hover-link:hover{
+    color: rgb(10, 86, 156);
+}
+.button1{
+    border: 2px solid lightblue;
+    padding: 12px 24px;
+    border-radius: 6px;
+    
+}
+.button1:hover{
+    border-color: #D23369;
+}
+.button2{
+    border: 2px solid ;
+    padding: 12px 24px;
+    border-radius: 6px;
+    background-color: #0f9ae6; 
+    color: white !important;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;;
+}
+.button2:hover{
+    background-color: rgb(14, 127, 219);
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+   
+}
+
+.image2{
+    width: 600px;
+}
+.left-side{
+    margin-top: 100px;
+    width: 400px;
+  
+}
+.left-side h1{
+ line-height: 60px;
+}
+.left-side p{
+    line-height: 1.5;
+}
+.btn{
+ margin-top: 20px;   
+}
+
+
+.middle h4{
+    margin-top: 50px;
+    margin-left: 25%;
+}
+
+.company-partner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.partner {
+    margin-top: 20px;
+    width: 100px;
+    
+    
+  
+    
+    
+}
+.svg{
+    width: 50px;
+}
+.rabit{
+    width:180px ;
+}
+.air{
+    width: 160px;
+    
+}
+.dady{
+    width: 160px;
+}
+.features{
+    background-image: url('./assets/asset\ 32.svg');
+    width: 630px;
+    height: 590px;
+    margin-top: 80px;
+    
+}
+.features1 h2{
+    margin-top: 25px;
+    margin-left: 100px;
+}
+
+.button3{
+    margin-top: 25px;
+    margin-left: 240px;
+    border: 1px solid rgb(43, 154, 206);
+    text-align: center;
+    padding: 12px;
+    border-radius: 5px;
+}
+.button3:hover{
+     border-color: #07a0f1;
+     color:#07a0f1 ;
+     transition: 0.2s ease-in-out;
+}
+.icon{
+    width: 35px;
+}
+.upper-card{
+    margin-top: 30px;
+    display: flex;
+}
+.card1 h2{
+    align-items: center;
+    width:150px;
+    margin-left: -55px;
+    padding-top: 10px;
+    
+}
+.card1 h4{
+    width: 270px;
+    height: 60px;
+    margin-left: -130px;
+    text-align: center;
+    margin-top: 5px;
+    line-height: 1.3rem;
+}
+
+.icon1{
+    margin-left: 148px;
+}
+.card2 h2{
+    align-items: center;
+    width:180px;
+    margin-left: 85px;
+    padding-top: 10px;
+}
+.card2 h4{
+    width: 270px;
+    height: 60px;
+    margin-left: 40px;
+    text-align: center;
+    margin-top: 5px;
+    line-height: 1.3rem;
+}
+.button4{
+    margin-left: -60px;
+    border: 1px solid rgb(43, 154, 206);
+    text-align: center;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.button5{
+    border: 1px solid rgb(43, 154, 206);
+    text-align: center;
+    padding: 12px;
+  
+    border-radius: 5px;
+    margin-left: 88px;
+}
+.icon2{
+    margin-left: 158px;
+}
+.card3 h2{
+    align-items: center;
+    width:200px;
+    margin-left: 90px;
+    padding-top: 10px;
+}
+.card3 h4{
+    width: 270px;
+    height: 60px;
+    margin-left: 40px;
+    text-align: center;
+    margin-top: 5px;
+    line-height: 1.3rem;
+}
+
+.button6{
+    border: 1px solid rgb(43, 154, 206);
+    text-align: center;
+    padding: 12px;
+  
+    border-radius: 5px;
+    margin-left: 120px;
+}
+
+
+
+.lower-card{
+    margin-top: 50px;
+    display: flex;
+}
+
+
+.card4 h2{
+    align-items: center;
+    width:200px;
+    margin-left: -70px;
+    padding-top: 10px;
+}
+.card4 h4{
+    width: 270px;
+    height: 60px;
+    margin-left: -130px;
+    text-align: center;
+    margin-top: 5px;
+    line-height: 1.3rem;
+}
+.card5 h2{
+    align-items: center;
+    width:200px;
+    margin-left: 70px;
+    padding-top: 10px;
+}
+.card5 h4{
+    width: 270px;
+    height: 60px;
+    margin-left: 30px;
+    text-align: center;
+    margin-top: 5px;
+    line-height: 1.3rem;
+}
+.card6 h2{
+    align-items: center;
+    width:250px;
+    margin-left: 90px;
+    padding-top: 10px;
+}
+
+.card6 h4{
+    width: 270px;
+    height: 60px;
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 5px;
+    line-height: 1.3rem;
+}
+
+.case1{
+    margin-top: 70px;
+    display: flex;
+}
+.case1 img{
+    width: 550px;
+}
+
+.article{
+    padding-left: 85px;
+    align-items: center;
+}
+.article p, h2 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+.article h3{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+
+.quotes{
+    background-image: url('./assets/asset\ 33.svg');
+    background-repeat: no-repeat;
+    
+}
+.quotes1{
+    padding-top: 15px;
+    padding-left: 15px;
+    font-weight: bold;
+    color: rgba(44, 44, 44, 0.849);
+}
+.case2 img{
+    width: 550px;
+}
+.case2{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.philips{
+    color: #07a0f1;
+    font-family: 'Oswald', sans-serif;;
+}
+
+.article1{
+    
+    align-items: center;
+}
+
+.article1 p, h2 {
+    width: 550px;
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+.article1 h3{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.case3 img{
+    width: 550px;
+}
+
+.case3{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.article3{
+    align-items: center;
+    padding-left: 85px;
+    align-items: center;
+    
+}
+.article3 p, h2 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.label{
+    border: 2px solid black;
+    display: inline-block;
+    color: white;
+    background-color: red;
+    border-color: white;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+
+.buttonx:hover{
+    color: #009EFF;
+    border-color: #2146C7;
+    transition: 0.2s ease-in ;
+    cursor: pointer;
+}
+
+.roles{
+   margin-left: 650px;
+   margin-top: 50px;
+   font-size: 1.5rem;
+}
+.roles h5{
+    margin-top: 18px;
+    border: 1px solid lightblue;
+    display: inline-block;
+    margin-left: 250px;
+    padding: 10px;
+    font-size: .8rem;
+    font-family: Poppins;
+    color: rgb(14, 144, 187);
+    border-radius: 5px;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 80px;
+    width: 1000px;
+    height: 1000px;
+}
+
+ .class1{
+    background-image: url('./assets/asset\ 34.jpeg');
+    width: 500px;
+    
+    
+}
+.class1 h1{
+    margin-top: 50px;
+} 
+
+
+.example-section{
+    
+   display: flex;
+   justify-content: space-between;
+   cursor: pointer;
+   margin-block: 50px;
+   
+    
+}
+.example-card{
+    width: 23%;
+    position: relative;
+    min-height: 300px;
+    background: black;
+    background: linear-gradient(rgb(0,0,0,0.1) , rgb(0,0,0,0.8)), url(./assets/asset\ 35.jpeg);
+    transition: 0.2s;
+}
+.example-card:hover{
+    box-shadow: 0 0 10px #888;
+}
+
+.example-card:nth-child(2){
+    background: linear-gradient(rgb(0,0,0,0.1) , rgb(0,0,0,0.8)), url(./assets/asset\ 36.jpeg);
+    background-size: cover;
+
+}
+.example-card:nth-child(3){
+    background: linear-gradient(rgb(0,0,0,0.1) , rgb(0,0,0,0.8)), url(./assets/asset\ 34.jpeg);
+    background-size: cover;
+
+}
+.example-card:nth-child(4){
+    background: linear-gradient(rgb(0,0,0,0.1) , rgb(0,0,0,0.8)), url(./assets/asset\ 37.jpeg);
+    background-size: cover;
+
+}
+
+.card-text{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    color: white;
+    font-size: 1.5rem;
+}
+.second-last{
+    background-color: #183b54;
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+    
+}
+.subheader{
+    width: 500px;
+}
+
+.text-content{
+    padding-top: 130px;
+    color: white;
+    
+    
+}
+.text-content h2{
+    font-size: 2.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Our{
+    margin-top: 15px;
+    width: 500px;
+    font-size: 1.1rem;
+    color: #aacde4;
+    line-height: 1.5rem;
+}
+.Objectives{
+    margin-top: 25px;
+    font-size: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.pointer{
+    display: flex;
+    gap: 80px;
+    margin-top: 20px;
+}
+.pointer1 , .pointer2{
+    line-height: 1.5rem;
+    color: #aacde4;
+}
+
+.underline{
+    text-decoration: dashed;
+}
+
+.learn{
+    background-color: #2294ed;
+    color: white;
+    padding: 10px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    margin-top: 60px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    border-color: #183b54 ;
+    border-style: hidden;
+    transition: 0.5s;
+}
+.learn:hover{
+    background-color: #D23369;
+}
+
+.prankush{
+    display: flex;
+}
+.picture img{
+    height: 600px;
+}
+.pta{
+    height: 250px;
+}
+.pta h2{
+    margin-left: 800px;
+    margin-top: 80px;
+    font-size: 2rem;
+}
+
+.pta p{
+    padding-top: 20px;
+    margin-left: 740px;
+    font-size: 1.5rem;
+}
+.pta button{
+    margin-top: 30px;
+    margin-left: 900px;
+    padding-top: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 12px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #009EFF;
+    color: white;
+    border-style: hidden;
+    border-radius: 5px;
+    transition: .5s;
+}
+.started:hover{
+    background-color: red;
+}
+.pta1{
+    height: 430px;
+    background-color: #ebf2fa;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+.bottom a{
+    margin-top: 117px;
+    
+}
+.bottom1 ,.bottom2 ,.bottom3{
+    margin-top: 120px;
+    display: inline-block;
+    width: 266.5px;
+    margin-left: 180px;
+    cursor: pointer;
+}
+
+
+.bottom4{
+    margin-top: 20px;
+    line-height: 2rem;
+    color: #577592;
+    transition: 1s;
+
+}
+.bottom4 p:hover{
+    color: skyblue;
+}
+.footer{
+    height: 80px;
+    background-color: #b9cde4;
+}
+.footer1{
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-evenly;
+    transition: 0.5s;
+    cursor: pointer;
+ 
+}
+.footer1 p:hover{
+  color: #47B5FF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
